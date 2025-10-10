@@ -1,0 +1,25 @@
+1. STAR SHAPE:
+#include <iostream>
+using namespace std;
+
+int main(){
+  
+     int n = 7;
+            for (int i = 0; i < n; i++) {
+                for (int j = 0; j < n; j++) {
+                    if (
+                        i == n / 2 || j == n / 2 ||
+                        i == j || i + j == n - 1 ||
+                        (i == 1 && (j == 2 || j == 4)) ||
+                        (i == n - 2 && (j == 2 || j == 4))
+                    )
+                        cout << "*";
+                    else
+                        cout << " ";
+                }
+                cout << endl;
+            }
+            return 0;
+        }
+
+
