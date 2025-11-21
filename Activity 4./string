@@ -18,3 +18,28 @@ cout<< "Mismatch"<<endl;
 
 return 0;
 }
+
+
+#include <iostream> 
+#include <cstring>
+using namespace std;
+
+
+int main(){
+
+string superName = "Homelander";
+
+cout<< "Enter SuperHeroname"<< endl;
+getline(cin, superName);
+
+cout<< "The super hero name is" <<superName<< endl;
+
+cout<<superName[0]<< endl;
+cout<<superName[1]<< endl;
+cout<<superName[2]<< endl;
+cout<<superName[3]<< endl;
+cout<<superName[4]<< endl;
+cout<<superName[5]<< endl;
+
+return 0;
+}
