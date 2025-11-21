@@ -1,0 +1,20 @@
+#include <iostream> 
+#include <cstring>
+using namespace std;
+
+
+int main(){
+
+char super[10] = "Spiderman";
+char alter[10] = "Spiderman";
+
+if(strcmp(super, alter) == 0){
+    cout << "The identity is revealed" << endl;
+    
+}
+
+else
+cout<< "Mismatch"<<endl;
+
+return 0;
+}
