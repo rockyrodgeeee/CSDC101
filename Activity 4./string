@@ -43,3 +43,22 @@ cout<<superName[5]<< endl;
 
 return 0;
 }
+
+#include <iostream> 
+#include <cstring>
+using namespace std;
+
+
+int main(){
+
+string firstName = "Ben"
+
+cout<< "Before Append" << endl;
+firstName.append("idict Eborde");
+
+cout<< "After Append" << endl;
+cout<<firstName << endl;
+
+
+return 0;
+}
