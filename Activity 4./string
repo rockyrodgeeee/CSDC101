@@ -81,3 +81,22 @@ else
 cout<<"Talo"<< endl;
 return 0;
 }
+
+#include <iostream> 
+#include <cstring>
+using namespace std;
+
+
+int main(){
+
+string Name = "Ben";
+string Winner = "Team korea";
+
+if(Name == Winner){
+    cout<< "Paldo"<<endl;
+    
+}
+else
+cout<<"Talo"<< endl;
+return 0;
+}
